@@ -1,6 +1,6 @@
 {
   "name": "beautiful-electron",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Write, review, port, and enforce idiomatic Electron desktop applications on Electron 45 + TypeScript: three skills distilled from the Electron security documentation, the Electron process-model and packaging guides, and the facta desktop handbook, plus a drop-in eslint config.",
   "license": "MIT",
   "author": {
