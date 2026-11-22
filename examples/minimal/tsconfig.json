@@ -1,0 +1,17 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "sourceMap": true
+  }
+}

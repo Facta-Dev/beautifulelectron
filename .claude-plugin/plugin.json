@@ -1,0 +1,32 @@
+{
+  "name": "beautiful-electron",
+  "version": "0.1.0",
+  "description": "Write, review, port, and enforce idiomatic Electron desktop applications on Electron 45 + TypeScript: three skills distilled from the Electron security documentation, the Electron process-model and packaging guides, and the facta desktop handbook, plus a drop-in eslint config.",
+  "license": "MIT",
+  "author": {
+    "name": "Facta-Dev",
+    "url": "https://github.com/Facta-Dev"
+  },
+  "homepage": "https://github.com/Facta-Dev/beautifulelectron",
+  "repository": "https://github.com/Facta-Dev/beautifulelectron",
+  "keywords": [
+    "best-practices",
+    "code-review",
+    "desktop",
+    "electron",
+    "eslint",
+    "fuses",
+    "ipc",
+    "nodejs",
+    "packaging",
+    "porting",
+    "preload",
+    "skill",
+    "typescript"
+  ],
+  "skills": [
+    "./skills/electron-best-practices",
+    "./skills/electron-port",
+    "./skills/electron-review"
+  ]
+}

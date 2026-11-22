@@ -1,0 +1,17 @@
+{
+  "name": "beautiful-electron-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Beautiful Electron minimal example: Electron 45, TypeScript, one typed RPC channel, sandboxed window, no file://.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/viewmodel.test.js",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "electron": "^45.0.0",
+    "typescript": "^5.9.0"
+  }
+}

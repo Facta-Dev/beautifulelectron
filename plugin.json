@@ -1,0 +1,58 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "beautiful-electron",
+  "version": "0.1.0",
+  "description": "Write, review, port, and enforce idiomatic Electron desktop applications on Electron 45 + TypeScript: three skills distilled from the Electron security documentation, the Electron process-model and packaging guides, and the facta desktop handbook, plus a drop-in eslint config.",
+  "author": {
+    "name": "Facta-Dev",
+    "url": "https://github.com/Facta-Dev"
+  },
+  "homepage": "https://github.com/Facta-Dev/beautifulelectron",
+  "repository": "https://github.com/Facta-Dev/beautifulelectron",
+  "license": "MIT",
+  "keywords": [
+    "best-practices",
+    "code-review",
+    "desktop",
+    "electron",
+    "eslint",
+    "fuses",
+    "ipc",
+    "nodejs",
+    "packaging",
+    "porting",
+    "preload",
+    "skill",
+    "typescript"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Beautiful Electron",
+        "shortDescription": "Write and review Electron apps",
+        "longDescription": "Three skills for Electron desktop developers, distilled from the Electron security documentation, the Electron process-model and packaging guides, and the facta desktop handbook.\n\nelectron-best-practices guides new Electron code: the three-process model, the typed preload bridge, the origin- and window-checked IPC policy, a window-free domain and application core, MVVM over the renderer, typed storage with migrations, OS-keystore secrets, fuses and a strict CSP, signed updates, and the unbreakable layer contract.\n\nelectron-review reviews a main process, preload bridge, renderer, IPC contract, packaging config, or diff and returns a prioritized report. Architecture and trust zones rank above everything. Every finding cites a file and line, the rule it breaks, and the smallest fix.\n\nelectron-port ports a legacy Electron app, a web, Tauri or Qt app, or a generic desktop app to Electron 45 with the same behavior. It ports the original tests first and writes a PORTING.md that lists every deliberate difference.\n\nThe skills contain instructions and reference text only. They make no network calls and collect no data. When a Node.js toolchain is available, the skills run tsc, eslint, and vitest on your project; without one, they work from the code alone. A drop-in eslint config is available in the GitHub repository.",
+        "developerName": "Facta-Dev",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Write idiomatic Electron desktop applications",
+          "Review Electron code with cited rules",
+          "Port legacy or web desktop apps to Electron"
+        ],
+        "websiteURL": "https://github.com/Facta-Dev/beautifulelectron",
+        "supportURL": "https://github.com/Facta-Dev/beautifulelectron/issues",
+        "privacyPolicyURL": "https://github.com/Facta-Dev/beautifulelectron/blob/main/PRIVACY.md",
+        "defaultPrompt": [
+          "Review this Electron preload bridge and list what to fix first",
+          "Port this Electron 20 app to Electron 45 with the same behavior",
+          "Write an origin-checked IPC handler for this feature"
+        ],
+        "brandColor": "#47848F",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "publication": {
+        "release_notes": "Initial release: three Electron skills, the three-process trust contract, and a proven eslint config."
+      }
+    }
+  }
+}

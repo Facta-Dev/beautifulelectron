@@ -1,0 +1,20 @@
+{
+  "name": "beautiful-electron",
+  "interface": {
+    "displayName": "Beautiful Electron"
+  },
+  "plugins": [
+    {
+      "name": "beautiful-electron",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

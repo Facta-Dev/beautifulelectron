@@ -1,0 +1,17 @@
+{
+  "name": "lints-check",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Violation harness proving every pinned rule in the Beautiful Electron drop-in eslint config fires.",
+  "scripts": {
+    "check": "tsc --noEmit -p . && eslint --format json src"
+  },
+  "devDependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "^4.7.5",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.1"
+  }
+}

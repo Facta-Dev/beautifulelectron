@@ -1,0 +1,17 @@
+{
+  "_comment": "Ledger for check-examples.py. Every ts block that cannot compile standalone is skipped here with a reason naming the package it needs; blocks that compile are left out and compiled directly. Use a text fence instead of a ts fence for Electron API sketches that cannot compile, and add an entry here only when a ts block must reference electron or another package.",
+  "files": {
+    "README.md": {
+      "blocks": {
+        "3": {
+          "first_line": "// Without the skill: every channel is open, and the payload is trusted.",
+          "skip": "needs electron (contextBridge, ipcRenderer): the generated project installs nothing, so the block is review-checked instead of compiled"
+        },
+        "4": {
+          "first_line": "// With the skill: one typed RPC, validated in the main process.",
+          "skip": "needs electron (contextBridge, ipcRenderer) and the kit IpcType/IpcRequest contracts: the generated project installs nothing"
+        }
+      }
+    }
+  }
+}
