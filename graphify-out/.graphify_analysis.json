@@ -1,0 +1,1463 @@
+{
+  "communities": {
+    "0": [
+      "exception",
+      "scripts_check_skill",
+      "scripts_check_skill_check_repo",
+      "scripts_check_skill_checker",
+      "scripts_check_skill_checker_add",
+      "scripts_check_skill_checker_check",
+      "scripts_check_skill_checker_check_changelog",
+      "scripts_check_skill_checker_check_doc_links",
+      "scripts_check_skill_checker_check_eval_case",
+      "scripts_check_skill_checker_check_evals",
+      "scripts_check_skill_checker_check_grader_file",
+      "scripts_check_skill_checker_check_graders",
+      "scripts_check_skill_checker_check_openai_icon",
+      "scripts_check_skill_checker_check_openai_interface",
+      "scripts_check_skill_checker_check_orphans",
+      "scripts_check_skill_checker_check_place_files",
+      "scripts_check_skill_checker_check_plugin_files",
+      "scripts_check_skill_checker_check_portable_plugin",
+      "scripts_check_skill_checker_check_relative_url",
+      "scripts_check_skill_checker_check_skill",
+      "scripts_check_skill_checker_init",
+      "scripts_check_skill_checker_load_frontmatter",
+      "scripts_check_skill_checker_load_json",
+      "scripts_check_skill_checker_load_yaml",
+      "scripts_check_skill_checker_loc",
+      "scripts_check_skill_checker_read",
+      "scripts_check_skill_checker_reference_hit",
+      "scripts_check_skill_checker_skill_dirs",
+      "scripts_check_skill_fold_block",
+      "scripts_check_skill_format_problem",
+      "scripts_check_skill_is_relative",
+      "scripts_check_skill_json_key_line",
+      "scripts_check_skill_main",
+      "scripts_check_skill_normalize_url",
+      "scripts_check_skill_parse_quoted",
+      "scripts_check_skill_parse_yaml",
+      "scripts_check_skill_png_size",
+      "scripts_check_skill_problem",
+      "scripts_check_skill_problems_to_json",
+      "scripts_check_skill_py_any",
+      "scripts_check_skill_py_path",
+      "scripts_check_skill_rationale_101",
+      "scripts_check_skill_rationale_1145",
+      "scripts_check_skill_rel",
+      "scripts_check_skill_split_flow",
+      "scripts_check_skill_split_frontmatter",
+      "scripts_check_skill_strip_comment",
+      "scripts_check_skill_summary_line",
+      "scripts_check_skill_yamlerror",
+      "scripts_check_skill_yamlerror_init",
+      "scripts_check_skill_yamlparser",
+      "scripts_check_skill_yamlparser_indent",
+      "scripts_check_skill_yamlparser_init",
+      "scripts_check_skill_yamlparser_is_empty",
+      "scripts_check_skill_yamlparser_parse",
+      "scripts_check_skill_yamlparser_parse_block",
+      "scripts_check_skill_yamlparser_parse_flow_map",
+      "scripts_check_skill_yamlparser_parse_flow_seq",
+      "scripts_check_skill_yamlparser_parse_map",
+      "scripts_check_skill_yamlparser_parse_scalar",
+      "scripts_check_skill_yamlparser_parse_seq",
+      "scripts_check_skill_yamlparser_parse_value",
+      "scripts_check_skill_yamlparser_skip_empty",
+      "scripts_check_skill_yamlparser_split_key"
+    ],
+    "1": [
+      "tests_test_check_skill",
+      "tests_test_check_skill_add_portable_plugin",
+      "tests_test_check_skill_build_valid_repo",
+      "tests_test_check_skill_checkskilltests",
+      "tests_test_check_skill_checkskilltests_assert_has_error",
+      "tests_test_check_skill_checkskilltests_run_root",
+      "tests_test_check_skill_checkskilltests_setupclass",
+      "tests_test_check_skill_checkskilltests_test_bad_name",
+      "tests_test_check_skill_checkskilltests_test_broken_link",
+      "tests_test_check_skill_checkskilltests_test_broken_references_mention",
+      "tests_test_check_skill_checkskilltests_test_case_name_must_match_folder",
+      "tests_test_check_skill_checkskilltests_test_cli_help",
+      "tests_test_check_skill_checkskilltests_test_empty_grader_body",
+      "tests_test_check_skill_checkskilltests_test_gap_in_grader_numbers",
+      "tests_test_check_skill_checkskilltests_test_invalid_semver",
+      "tests_test_check_skill_checkskilltests_test_long_description",
+      "tests_test_check_skill_checkskilltests_test_long_skill_body_warns",
+      "tests_test_check_skill_checkskilltests_test_markdown_link_covers_reference",
+      "tests_test_check_skill_checkskilltests_test_missing_frontmatter_key",
+      "tests_test_check_skill_checkskilltests_test_missing_grader_frontmatter_key",
+      "tests_test_check_skill_checkskilltests_test_missing_skill_description",
+      "tests_test_check_skill_checkskilltests_test_name_must_match_folder",
+      "tests_test_check_skill_checkskilltests_test_orphan_reference",
+      "tests_test_check_skill_checkskilltests_test_output_format_and_json_flag",
+      "tests_test_check_skill_checkskilltests_test_place_files_existing_target_ok",
+      "tests_test_check_skill_checkskilltests_test_place_files_missing_target",
+      "tests_test_check_skill_checkskilltests_test_plugin_name_mismatch",
+      "tests_test_check_skill_checkskilltests_test_portable_display_name_too_long",
+      "tests_test_check_skill_checkskilltests_test_portable_http_url_rejected",
+      "tests_test_check_skill_checkskilltests_test_portable_icon_must_be_square",
+      "tests_test_check_skill_checkskilltests_test_portable_missing_icon",
+      "tests_test_check_skill_checkskilltests_test_portable_too_many_prompts",
+      "tests_test_check_skill_checkskilltests_test_portable_unknown_top_level_key",
+      "tests_test_check_skill_checkskilltests_test_portable_version_must_match",
+      "tests_test_check_skill_checkskilltests_test_real_repo_json_ok",
+      "tests_test_check_skill_checkskilltests_test_real_repo_passes",
+      "tests_test_check_skill_checkskilltests_test_unknown_frontmatter_key",
+      "tests_test_check_skill_checkskilltests_test_valid_fixture_repo_passes",
+      "tests_test_check_skill_checkskilltests_test_valid_portable_plugin_passes",
+      "tests_test_check_skill_checkskilltests_test_version_mismatch",
+      "tests_test_check_skill_error_messages",
+      "tests_test_check_skill_formatted",
+      "tests_test_check_skill_load_checker",
+      "tests_test_check_skill_messages",
+      "tests_test_check_skill_png_header",
+      "tests_test_check_skill_portable_with",
+      "tests_test_check_skill_rationale_142",
+      "tests_test_check_skill_write"
+    ],
+    "2": [
+      "changelog",
+      "changelog_added",
+      "changelog_changelog",
+      "changelog_unreleased",
+      "contributing",
+      "contributing_contributing",
+      "contributing_good_first_contributions",
+      "contributing_license",
+      "contributing_making_a_change",
+      "contributing_style",
+      "contributing_the_one_rule_every_rule_needs_a_source",
+      "docs_architecture_readme",
+      "docs_architecture_readme_architecture_the_trust_zones",
+      "lints_readme",
+      "lints_readme_beautiful_electron_lints",
+      "privacy",
+      "privacy_privacy_policy",
+      "readme",
+      "skills_electron_best_practices_references_electron_architecture",
+      "skills_electron_best_practices_references_electron_architecture_1_the_layer_table_the_contract",
+      "skills_electron_best_practices_references_electron_architecture_2_where_each_layer_runs",
+      "skills_electron_best_practices_references_electron_architecture_3_ports_shape_not_code",
+      "skills_electron_best_practices_references_electron_architecture_4_mvvm_and_the_coreport",
+      "skills_electron_best_practices_references_electron_architecture_5_vertical_slices_mirror_the_backend",
+      "skills_electron_best_practices_references_electron_architecture_6_enforcement_machine_checkable",
+      "skills_electron_best_practices_references_electron_architecture_7_repository_layout_condensed",
+      "skills_electron_best_practices_references_electron_architecture_8_worked_flow_one_feature_end_to_end",
+      "skills_electron_best_practices_references_electron_architecture_electron_architecture_digest",
+      "skills_electron_best_practices_skill",
+      "skills_electron_best_practices_skill_10_architecture_hexagon_slices_mvvm",
+      "skills_electron_best_practices_skill_11_performance_and_gpu_safe_mode",
+      "skills_electron_best_practices_skill_12_platform",
+      "skills_electron_best_practices_skill_13_enterprise_policy_updates_and_observability",
+      "skills_electron_best_practices_skill_14_testing",
+      "skills_electron_best_practices_skill_15_cross_skill_contract",
+      "skills_electron_best_practices_skill_1_mindset",
+      "skills_electron_best_practices_skill_2_before_you_hand_back_code",
+      "skills_electron_best_practices_skill_3_three_trust_zones",
+      "skills_electron_best_practices_skill_4_process_model",
+      "skills_electron_best_practices_skill_5_ipc_and_the_preload_bridge",
+      "skills_electron_best_practices_skill_6_windows_navigation_and_app",
+      "skills_electron_best_practices_skill_7_backend_sdk_auth_and_realtime",
+      "skills_electron_best_practices_skill_8_storage_outbox_and_secrets",
+      "skills_electron_best_practices_skill_9_security_fuses_csp_supply_chain",
+      "skills_electron_best_practices_skill_electron_best_practices",
+      "skills_electron_best_practices_skill_sources"
+    ],
+    "3": [
+      "scripts_check_examples",
+      "scripts_check_examples_apply_harness",
+      "scripts_check_examples_as_text",
+      "scripts_check_examples_block",
+      "scripts_check_examples_build_project",
+      "scripts_check_examples_check_brackets",
+      "scripts_check_examples_check_quotes",
+      "scripts_check_examples_check_repo",
+      "scripts_check_examples_doc_files",
+      "scripts_check_examples_find_blocks",
+      "scripts_check_examples_find_tsc",
+      "scripts_check_examples_first_code_line",
+      "scripts_check_examples_forbidden_module",
+      "scripts_check_examples_format_problem",
+      "scripts_check_examples_imported_modules",
+      "scripts_check_examples_load_harness",
+      "scripts_check_examples_main",
+      "scripts_check_examples_map_errors",
+      "scripts_check_examples_problem",
+      "scripts_check_examples_py_any",
+      "scripts_check_examples_py_path",
+      "scripts_check_examples_rationale_139",
+      "scripts_check_examples_rationale_186",
+      "scripts_check_examples_rationale_200",
+      "scripts_check_examples_rationale_275",
+      "scripts_check_examples_rationale_313",
+      "scripts_check_examples_rationale_340",
+      "scripts_check_examples_rationale_370",
+      "scripts_check_examples_rationale_425",
+      "scripts_check_examples_rationale_459",
+      "scripts_check_examples_rel",
+      "scripts_check_examples_render",
+      "scripts_check_examples_run_tsc",
+      "scripts_check_examples_summary_line"
+    ],
+    "4": [
+      "plugin",
+      "plugin_author",
+      "plugin_author_name",
+      "plugin_author_url",
+      "plugin_com_openai_interface",
+      "plugin_com_openai_publication",
+      "plugin_description",
+      "plugin_extensions",
+      "plugin_extensions_com_openai",
+      "plugin_homepage",
+      "plugin_interface_brandcolor",
+      "plugin_interface_capabilities",
+      "plugin_interface_category",
+      "plugin_interface_composericon",
+      "plugin_interface_defaultprompt",
+      "plugin_interface_developername",
+      "plugin_interface_displayname",
+      "plugin_interface_logo",
+      "plugin_interface_longdescription",
+      "plugin_interface_privacypolicyurl",
+      "plugin_interface_shortdescription",
+      "plugin_interface_supporturl",
+      "plugin_interface_websiteurl",
+      "plugin_keywords",
+      "plugin_license",
+      "plugin_name",
+      "plugin_publication_release_notes",
+      "plugin_repository",
+      "plugin_schema",
+      "plugin_version"
+    ],
+    "5": [
+      "claude_skills_graphify_skill",
+      "claude_skills_graphify_skill_for_graphify_add_and_watch",
+      "claude_skills_graphify_skill_for_graphify_query",
+      "claude_skills_graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
+      "claude_skills_graphify_skill_for_update_and_cluster_only",
+      "claude_skills_graphify_skill_graphify",
+      "claude_skills_graphify_skill_honesty_rules",
+      "claude_skills_graphify_skill_interpreter_guard_for_subcommands",
+      "claude_skills_graphify_skill_part_a_structural_extraction_for_code_files",
+      "claude_skills_graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "claude_skills_graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "claude_skills_graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
+      "claude_skills_graphify_skill_step_1_ensure_graphify_is_installed",
+      "claude_skills_graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
+      "claude_skills_graphify_skill_step_2_detect_files",
+      "claude_skills_graphify_skill_step_3_extract_entities_and_relationships",
+      "claude_skills_graphify_skill_step_4_5_graph_health_check_read_only_integrity_gate",
+      "claude_skills_graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "claude_skills_graphify_skill_step_5_label_communities",
+      "claude_skills_graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "claude_skills_graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "claude_skills_graphify_skill_steps_6b_8_wiki_neo4j_falkordb_svg_graphml_mcp_benchmark_only_on_their_flags",
+      "claude_skills_graphify_skill_usage",
+      "claude_skills_graphify_skill_what_graphify_is_for",
+      "claude_skills_graphify_skill_what_you_must_do_when_invoked"
+    ],
+    "6": [
+      "examples_minimal_src_main",
+      "examples_minimal_src_main_allowed_types",
+      "examples_minimal_src_main_createwindow",
+      "examples_minimal_src_main_handlerpc",
+      "examples_minimal_src_main_notes",
+      "examples_minimal_src_main_reject",
+      "examples_minimal_src_viewmodel",
+      "examples_minimal_src_viewmodel_inmemorynotes",
+      "examples_minimal_src_viewmodel_inmemorynotes_add",
+      "examples_minimal_src_viewmodel_inmemorynotes_list",
+      "examples_minimal_src_viewmodel_note",
+      "examples_minimal_src_viewmodel_notesport",
+      "examples_minimal_src_viewmodel_notesport_add",
+      "examples_minimal_src_viewmodel_notesport_list",
+      "examples_minimal_src_viewmodel_notesviewmodel",
+      "examples_minimal_src_viewmodel_notesviewmodel_add",
+      "examples_minimal_src_viewmodel_notesviewmodel_constructor",
+      "examples_minimal_src_viewmodel_notesviewmodel_emit",
+      "examples_minimal_src_viewmodel_notesviewmodel_refresh",
+      "examples_minimal_src_viewmodel_notesviewmodel_snapshot",
+      "examples_minimal_src_viewmodel_notesviewmodel_status",
+      "examples_minimal_src_viewmodel_notesviewmodel_subscribe",
+      "examples_minimal_src_viewmodel_result",
+      "examples_minimal_src_viewmodel_status",
+      "examples_minimal_src_viewmodel_test"
+    ],
+    "7": [
+      "tests_support",
+      "tests_support_load_script",
+      "tests_support_rationale_1",
+      "tests_support_rationale_13",
+      "tests_support_write",
+      "tests_test_lints_config",
+      "tests_test_lints_config_configpairing",
+      "tests_test_lints_config_configpairing_test_pinned_rules_are_exactly_the_explicit_config",
+      "tests_test_lints_config_configpairing_test_replica_is_byte_identical_to_the_drop_in",
+      "tests_test_lints_config_explicit_rules",
+      "tests_test_lints_config_gatescript",
+      "tests_test_lints_config_gatescript_setup",
+      "tests_test_lints_config_gatescript_test_a_non_json_report_is_an_explicit_error",
+      "tests_test_lints_config_gatescript_test_every_tool_run_is_bounded_by_a_timeout",
+      "tests_test_lints_config_gatescript_test_gate_exists_with_markers_and_identity",
+      "tests_test_lints_config_gatescript_test_stderr_is_surfaced",
+      "tests_test_lints_config_harnesscoverage",
+      "tests_test_lints_config_harnesscoverage_test_every_pinned_rule_has_a_marker",
+      "tests_test_lints_config_harnesscoverage_test_markers_are_all_pinned_rules",
+      "tests_test_lints_config_harnesscoverage_test_silencing_rules_are_pinned",
+      "tests_test_lints_config_harnesscoverage_test_the_layer_walls_are_among_the_pinned_rules",
+      "tests_test_lints_config_harnesscoverage_test_the_layer_walls_name_the_electron_boundaries",
+      "tests_test_lints_config_marker_names",
+      "tests_test_lints_config_rationale_127",
+      "tests_test_lints_config_rationale_61"
+    ],
+    "8": [
+      "completedprocess",
+      "tests_test_repo_gates",
+      "tests_test_repo_gates_buildgate",
+      "tests_test_repo_gates_buildgate_test_example_builds_when_node_is_present",
+      "tests_test_repo_gates_cijobs",
+      "tests_test_repo_gates_cijobs_test_examples_gate_never_silently_downgrades",
+      "tests_test_repo_gates_cijobs_test_gate_entrypoints_present",
+      "tests_test_repo_gates_cijobs_test_jobs_present",
+      "tests_test_repo_gates_cijobs_test_node_toolchain_pinned",
+      "tests_test_repo_gates_examplesledger",
+      "tests_test_repo_gates_examplesledger_test_every_ledgered_path_exists_on_disk",
+      "tests_test_repo_gates_examplesledger_test_every_skip_has_a_nonempty_reason",
+      "tests_test_repo_gates_gates",
+      "tests_test_repo_gates_gates_test_examples_are_balanced",
+      "tests_test_repo_gates_gates_test_skill_validator_passes",
+      "tests_test_repo_gates_load",
+      "tests_test_repo_gates_manifestpairing",
+      "tests_test_repo_gates_manifestpairing_test_marketplaces_name_the_plugin",
+      "tests_test_repo_gates_manifestpairing_test_root_and_claude_manifests_agree_on_name_version",
+      "tests_test_repo_gates_manifestpairing_test_schema_pin",
+      "tests_test_repo_gates_manifestpairing_test_skills_list_matches_folders_both_directions",
+      "tests_test_repo_gates_py_path",
+      "tests_test_repo_gates_run",
+      "tests_test_repo_gates_skill_dirs"
+    ],
+    "9": [
+      "readme_a_worked_example",
+      "readme_agent_kit_claude_code",
+      "readme_any_agent",
+      "readme_beautiful_electron",
+      "readme_claude_code",
+      "readme_contributing",
+      "readme_install",
+      "readme_license",
+      "readme_openai_codex_and_chatgpt",
+      "readme_repository_layout",
+      "readme_siblings",
+      "readme_sources",
+      "readme_the_architecture_contract",
+      "readme_the_lints_config",
+      "readme_the_playbooks",
+      "readme_what_it_does_not_do",
+      "readme_why"
+    ],
+    "10": [
+      "examples_minimal_tsconfig",
+      "examples_minimal_tsconfig_compileroptions",
+      "examples_minimal_tsconfig_compileroptions_esmoduleinterop",
+      "examples_minimal_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "examples_minimal_tsconfig_compileroptions_lib",
+      "examples_minimal_tsconfig_compileroptions_module",
+      "examples_minimal_tsconfig_compileroptions_nouncheckedindexedaccess",
+      "examples_minimal_tsconfig_compileroptions_outdir",
+      "examples_minimal_tsconfig_compileroptions_rootdir",
+      "examples_minimal_tsconfig_compileroptions_skiplibcheck",
+      "examples_minimal_tsconfig_compileroptions_sourcemap",
+      "examples_minimal_tsconfig_compileroptions_strict",
+      "examples_minimal_tsconfig_compileroptions_target",
+      "examples_minimal_tsconfig_compileroptions_types",
+      "examples_minimal_tsconfig_include"
+    ],
+    "11": [
+      "lints_check_tsconfig",
+      "lints_check_tsconfig_compileroptions",
+      "lints_check_tsconfig_compileroptions_baseurl",
+      "lints_check_tsconfig_compileroptions_lib",
+      "lints_check_tsconfig_compileroptions_module",
+      "lints_check_tsconfig_compileroptions_moduleresolution",
+      "lints_check_tsconfig_compileroptions_noemit",
+      "lints_check_tsconfig_compileroptions_nouncheckedindexedaccess",
+      "lints_check_tsconfig_compileroptions_paths",
+      "lints_check_tsconfig_compileroptions_skiplibcheck",
+      "lints_check_tsconfig_compileroptions_strict",
+      "lints_check_tsconfig_compileroptions_target",
+      "lints_check_tsconfig_compileroptions_types",
+      "lints_check_tsconfig_include",
+      "lints_check_tsconfig_paths"
+    ],
+    "12": [
+      "examples_minimal_package",
+      "examples_minimal_package_description",
+      "examples_minimal_package_devdependencies",
+      "examples_minimal_package_devdependencies_electron",
+      "examples_minimal_package_devdependencies_types_node",
+      "examples_minimal_package_devdependencies_typescript",
+      "examples_minimal_package_main",
+      "examples_minimal_package_name",
+      "examples_minimal_package_private",
+      "examples_minimal_package_scripts",
+      "examples_minimal_package_scripts_build",
+      "examples_minimal_package_scripts_start",
+      "examples_minimal_package_scripts_test",
+      "examples_minimal_package_version"
+    ],
+    "13": [
+      "lints_check_package",
+      "lints_check_package_description",
+      "lints_check_package_devdependencies",
+      "lints_check_package_devdependencies_eslint",
+      "lints_check_package_devdependencies_eslint_community_eslint_plugin_eslint_comments",
+      "lints_check_package_devdependencies_eslint_js",
+      "lints_check_package_devdependencies_typescript",
+      "lints_check_package_devdependencies_typescript_eslint",
+      "lints_check_package_name",
+      "lints_check_package_private",
+      "lints_check_package_scripts",
+      "lints_check_package_scripts_check",
+      "lints_check_package_type",
+      "lints_check_package_version"
+    ],
+    "14": [
+      "skills_electron_best_practices_references_electron_security",
+      "skills_electron_best_practices_references_electron_security_10_auth_and_update_trust",
+      "skills_electron_best_practices_references_electron_security_1_threat_model_condensed",
+      "skills_electron_best_practices_references_electron_security_2_renderer_hardening_defaults_mandatory",
+      "skills_electron_best_practices_references_electron_security_3_content_security_policy",
+      "skills_electron_best_practices_references_electron_security_4_navigation_lockdown",
+      "skills_electron_best_practices_references_electron_security_5_fuses_and_asar_integrity",
+      "skills_electron_best_practices_references_electron_security_6_secrets_and_safestorage",
+      "skills_electron_best_practices_references_electron_security_7_ipc_and_bridge_hardening",
+      "skills_electron_best_practices_references_electron_security_8_linux_sandbox_reality",
+      "skills_electron_best_practices_references_electron_security_9_supply_chain",
+      "skills_electron_best_practices_references_electron_security_electron_security_digest"
+    ],
+    "15": [
+      "skills_electron_best_practices_references_electron_platform",
+      "skills_electron_best_practices_references_electron_platform_1_runtime_facts",
+      "skills_electron_best_practices_references_electron_platform_2_process_model",
+      "skills_electron_best_practices_references_electron_platform_3_app_lifecycle_and_os_events",
+      "skills_electron_best_practices_references_electron_platform_4_windows_and_webcontents_essentials",
+      "skills_electron_best_practices_references_electron_platform_5_linux_display_servers_and_desktop",
+      "skills_electron_best_practices_references_electron_platform_6_per_os_capability_matrix_condensed_from_the_playbook",
+      "skills_electron_best_practices_references_electron_platform_7_packaging_matrix_and_support_policy",
+      "skills_electron_best_practices_references_electron_platform_8_electron_upgrade_routine_condensed",
+      "skills_electron_best_practices_references_electron_platform_electron_platform_digest",
+      "skills_electron_best_practices_references_electron_platform_the_app_protocol"
+    ],
+    "16": [
+      "skills_electron_port_skill_2_10_other_common_legacy_apis",
+      "skills_electron_port_skill_2_1_nodeintegration_true_disabled_contextisolation_sandbox",
+      "skills_electron_port_skill_2_2_the_remote_module",
+      "skills_electron_port_skill_2_3_ipcrenderer_sendsync_and_event_returnvalue",
+      "skills_electron_port_skill_2_4_file_app_content",
+      "skills_electron_port_skill_2_5_in_app_login_browserwindow_to_the_idp_webview_logins",
+      "skills_electron_port_skill_2_6_localstorage_indexeddb_and_other_renderer_storage",
+      "skills_electron_port_skill_2_7_generic_ipc_invoke_channel_ad_hoc_string_channels_dynamic_payloads",
+      "skills_electron_port_skill_2_8_unfused_binary_electron_run_as_node_node_options_debug_flags_open",
+      "skills_electron_port_skill_2_9_shipping_no_sandbox_or_a_distro_that_pushes_you_there",
+      "skills_electron_port_skill_2_legacy_electron_to_electron_45_mapping"
+    ],
+    "17": [
+      "tests_test_skill_wording",
+      "tests_test_skill_wording_bestpractices",
+      "tests_test_skill_wording_bestpractices_test_names_the_layer_walls",
+      "tests_test_skill_wording_bestpractices_test_points_at_review_as_the_critic",
+      "tests_test_skill_wording_bestpractices_test_silencing_prohibition_names_the_tokens",
+      "tests_test_skill_wording_bestpractices_test_unbreakable_clause_present",
+      "tests_test_skill_wording_bp_body",
+      "tests_test_skill_wording_reviewskill",
+      "tests_test_skill_wording_reviewskill_test_architecture_category_ranks_first_as_must_fix",
+      "tests_test_skill_wording_reviewskill_test_waiver_detection_clause",
+      "tests_test_skill_wording_rv_body"
+    ],
+    "18": [
+      "skills_electron_review_skill_2_categories_in_ranking_order",
+      "skills_electron_review_skill_accessibility_and_i18n",
+      "skills_electron_review_skill_architecture_contracts_always_must_fix_ranked_first",
+      "skills_electron_review_skill_ipc_and_preload",
+      "skills_electron_review_skill_navigation_and_content_loading",
+      "skills_electron_review_skill_packaging_and_updates",
+      "skills_electron_review_skill_performance",
+      "skills_electron_review_skill_secrets_and_auth",
+      "skills_electron_review_skill_storage_and_realtime",
+      "skills_electron_review_skill_tests"
+    ],
+    "19": [
+      "claude_skills_graphify_references_exports",
+      "claude_skills_graphify_references_exports_graphify_reference_extra_exports_and_benchmark",
+      "claude_skills_graphify_references_exports_step_6b_wiki_only_if_wiki_flag",
+      "claude_skills_graphify_references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "claude_skills_graphify_references_exports_step_7a_falkordb_export_only_if_falkordb_or_falkordb_push_flag",
+      "claude_skills_graphify_references_exports_step_7b_svg_export_only_if_svg_flag",
+      "claude_skills_graphify_references_exports_step_7c_graphml_export_only_if_graphml_flag",
+      "claude_skills_graphify_references_exports_step_7d_mcp_server_only_if_mcp_flag",
+      "claude_skills_graphify_references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
+    ],
+    "20": [
+      "tests_test_package_openai_plugin",
+      "tests_test_package_openai_plugin_load_packager",
+      "tests_test_package_openai_plugin_packagetests",
+      "tests_test_package_openai_plugin_packagetests_build",
+      "tests_test_package_openai_plugin_packagetests_setupclass",
+      "tests_test_package_openai_plugin_packagetests_test_package_holds_manifest_skills_and_icon",
+      "tests_test_package_openai_plugin_packagetests_test_package_icon_paths_resolve",
+      "tests_test_package_openai_plugin_packagetests_test_package_is_reproducible",
+      "tests_test_package_openai_plugin_packagetests_test_package_leaves_out_evals"
+    ],
+    "21": [
+      "claude_agents_client_ipc_surface_reviewer",
+      "claude_agents_client_ipc_surface_reviewer_app_ipc_surface_reviewer_agent",
+      "claude_agents_client_ipc_surface_reviewer_core_mission",
+      "claude_agents_client_ipc_surface_reviewer_expertise_areas",
+      "claude_agents_client_ipc_surface_reviewer_guiding_principles",
+      "claude_agents_client_ipc_surface_reviewer_output_format",
+      "claude_agents_client_ipc_surface_reviewer_quality_standards"
+    ],
+    "22": [
+      "claude_agents_client_packaging_updater_reviewer",
+      "claude_agents_client_packaging_updater_reviewer_app_packaging_updater_reviewer_agent",
+      "claude_agents_client_packaging_updater_reviewer_core_mission",
+      "claude_agents_client_packaging_updater_reviewer_expertise_areas",
+      "claude_agents_client_packaging_updater_reviewer_guiding_principles",
+      "claude_agents_client_packaging_updater_reviewer_output_format",
+      "claude_agents_client_packaging_updater_reviewer_quality_standards"
+    ],
+    "23": [
+      "claude_agents_client_renderer_security_reviewer",
+      "claude_agents_client_renderer_security_reviewer_app_renderer_security_reviewer_agent",
+      "claude_agents_client_renderer_security_reviewer_core_mission",
+      "claude_agents_client_renderer_security_reviewer_expertise_areas",
+      "claude_agents_client_renderer_security_reviewer_guiding_principles",
+      "claude_agents_client_renderer_security_reviewer_output_format",
+      "claude_agents_client_renderer_security_reviewer_quality_standards"
+    ],
+    "24": [
+      "claude_agents_client_renderer_ui_reviewer",
+      "claude_agents_client_renderer_ui_reviewer_app_renderer_ui_reviewer",
+      "claude_agents_client_renderer_ui_reviewer_core_mission",
+      "claude_agents_client_renderer_ui_reviewer_expertise_areas",
+      "claude_agents_client_renderer_ui_reviewer_guiding_principles",
+      "claude_agents_client_renderer_ui_reviewer_output_format",
+      "claude_agents_client_renderer_ui_reviewer_quality_standards"
+    ],
+    "25": [
+      "claude_agents_core_architect",
+      "claude_agents_core_architect_app_architect_agent",
+      "claude_agents_core_architect_core_mission",
+      "claude_agents_core_architect_expertise_areas",
+      "claude_agents_core_architect_guiding_principles",
+      "claude_agents_core_architect_output_format",
+      "claude_agents_core_architect_quality_standards"
+    ],
+    "26": [
+      "claude_agents_core_build_resolver",
+      "claude_agents_core_build_resolver_app_build_resolver_agent",
+      "claude_agents_core_build_resolver_core_mission",
+      "claude_agents_core_build_resolver_expertise_areas",
+      "claude_agents_core_build_resolver_guiding_principles",
+      "claude_agents_core_build_resolver_output_format",
+      "claude_agents_core_build_resolver_quality_standards"
+    ],
+    "27": [
+      "claude_agents_core_code_explorer",
+      "claude_agents_core_code_explorer_app_code_explorer_agent",
+      "claude_agents_core_code_explorer_core_mission",
+      "claude_agents_core_code_explorer_expertise_areas",
+      "claude_agents_core_code_explorer_guiding_principles",
+      "claude_agents_core_code_explorer_output_format",
+      "claude_agents_core_code_explorer_quality_standards"
+    ],
+    "28": [
+      "claude_agents_core_code_reviewer",
+      "claude_agents_core_code_reviewer_app_code_reviewer_agent",
+      "claude_agents_core_code_reviewer_core_mission",
+      "claude_agents_core_code_reviewer_expertise_areas",
+      "claude_agents_core_code_reviewer_guiding_principles",
+      "claude_agents_core_code_reviewer_output_format",
+      "claude_agents_core_code_reviewer_quality_standards"
+    ],
+    "29": [
+      "claude_agents_core_planner",
+      "claude_agents_core_planner_app_planner_agent",
+      "claude_agents_core_planner_core_mission",
+      "claude_agents_core_planner_expertise_areas",
+      "claude_agents_core_planner_guiding_principles",
+      "claude_agents_core_planner_output_format",
+      "claude_agents_core_planner_quality_standards"
+    ],
+    "30": [
+      "claude_agents_core_tdd_guide",
+      "claude_agents_core_tdd_guide_app_tdd_guide_agent",
+      "claude_agents_core_tdd_guide_core_mission",
+      "claude_agents_core_tdd_guide_expertise_areas",
+      "claude_agents_core_tdd_guide_guiding_principles",
+      "claude_agents_core_tdd_guide_output_format",
+      "claude_agents_core_tdd_guide_quality_standards"
+    ],
+    "31": [
+      "claude_agents_security_electron_security_reviewer",
+      "claude_agents_security_electron_security_reviewer_app_electron_security_reviewer_agent",
+      "claude_agents_security_electron_security_reviewer_core_mission",
+      "claude_agents_security_electron_security_reviewer_expertise_areas",
+      "claude_agents_security_electron_security_reviewer_guiding_principles",
+      "claude_agents_security_electron_security_reviewer_output_format",
+      "claude_agents_security_electron_security_reviewer_quality_standards"
+    ],
+    "32": [
+      "claude_agents_testing_test_author",
+      "claude_agents_testing_test_author_app_test_author_agent",
+      "claude_agents_testing_test_author_core_mission",
+      "claude_agents_testing_test_author_expertise_areas",
+      "claude_agents_testing_test_author_guiding_principles",
+      "claude_agents_testing_test_author_output_format",
+      "claude_agents_testing_test_author_quality_standards"
+    ],
+    "33": [
+      "claude_skills_add_slice_skill",
+      "claude_skills_add_slice_skill_app_add_slice",
+      "claude_skills_add_slice_skill_core_principles",
+      "claude_skills_add_slice_skill_output_format",
+      "claude_skills_add_slice_skill_research_references",
+      "claude_skills_add_slice_skill_rules",
+      "claude_skills_add_slice_skill_when_to_activate"
+    ],
+    "34": [
+      "claude_skills_claim_check_skill",
+      "claude_skills_claim_check_skill_app_claim_check_skill",
+      "claude_skills_claim_check_skill_core_principles",
+      "claude_skills_claim_check_skill_output_format",
+      "claude_skills_claim_check_skill_research_references",
+      "claude_skills_claim_check_skill_rules",
+      "claude_skills_claim_check_skill_when_to_activate"
+    ],
+    "35": [
+      "claude_skills_clean_room_rebuild_skill",
+      "claude_skills_clean_room_rebuild_skill_app_clean_room_rebuild_skill",
+      "claude_skills_clean_room_rebuild_skill_core_principles",
+      "claude_skills_clean_room_rebuild_skill_output_format",
+      "claude_skills_clean_room_rebuild_skill_research_references",
+      "claude_skills_clean_room_rebuild_skill_rules",
+      "claude_skills_clean_room_rebuild_skill_when_to_activate"
+    ],
+    "36": [
+      "claude_skills_corpus_retrieval_skill",
+      "claude_skills_corpus_retrieval_skill_app_corpus_retrieval_skill",
+      "claude_skills_corpus_retrieval_skill_core_principles",
+      "claude_skills_corpus_retrieval_skill_output_format",
+      "claude_skills_corpus_retrieval_skill_research_references",
+      "claude_skills_corpus_retrieval_skill_rules",
+      "claude_skills_corpus_retrieval_skill_when_to_activate"
+    ],
+    "37": [
+      "claude_skills_diagnosing_bugs_skill",
+      "claude_skills_diagnosing_bugs_skill_app_diagnosing_bugs_skill",
+      "claude_skills_diagnosing_bugs_skill_core_principles",
+      "claude_skills_diagnosing_bugs_skill_output_format",
+      "claude_skills_diagnosing_bugs_skill_research_references",
+      "claude_skills_diagnosing_bugs_skill_rules",
+      "claude_skills_diagnosing_bugs_skill_when_to_activate"
+    ],
+    "38": [
+      "claude_skills_domain_modeling_skill",
+      "claude_skills_domain_modeling_skill_app_domain_modeling_skill",
+      "claude_skills_domain_modeling_skill_core_principles",
+      "claude_skills_domain_modeling_skill_output_format",
+      "claude_skills_domain_modeling_skill_research_references",
+      "claude_skills_domain_modeling_skill_rules",
+      "claude_skills_domain_modeling_skill_when_to_activate"
+    ],
+    "39": [
+      "claude_skills_electron_security_check_skill",
+      "claude_skills_electron_security_check_skill_app_electron_security_check",
+      "claude_skills_electron_security_check_skill_core_principles",
+      "claude_skills_electron_security_check_skill_output_format",
+      "claude_skills_electron_security_check_skill_research_references",
+      "claude_skills_electron_security_check_skill_rules",
+      "claude_skills_electron_security_check_skill_when_to_activate"
+    ],
+    "40": [
+      "claude_skills_electron_upgrade_skill",
+      "claude_skills_electron_upgrade_skill_app_electron_upgrade",
+      "claude_skills_electron_upgrade_skill_core_principles",
+      "claude_skills_electron_upgrade_skill_output_format",
+      "claude_skills_electron_upgrade_skill_research_references",
+      "claude_skills_electron_upgrade_skill_rules",
+      "claude_skills_electron_upgrade_skill_when_to_activate"
+    ],
+    "41": [
+      "claude_skills_grilling_skill",
+      "claude_skills_grilling_skill_app_grilling_skill",
+      "claude_skills_grilling_skill_core_principles",
+      "claude_skills_grilling_skill_output_format",
+      "claude_skills_grilling_skill_research_references",
+      "claude_skills_grilling_skill_rules",
+      "claude_skills_grilling_skill_when_to_activate"
+    ],
+    "42": [
+      "claude_skills_learn_skill",
+      "claude_skills_learn_skill_app_learn",
+      "claude_skills_learn_skill_core_principles",
+      "claude_skills_learn_skill_output_format",
+      "claude_skills_learn_skill_research_references",
+      "claude_skills_learn_skill_rules",
+      "claude_skills_learn_skill_when_to_activate"
+    ],
+    "43": [
+      "claude_skills_new_ipc_channel_skill",
+      "claude_skills_new_ipc_channel_skill_app_new_ipc_channel",
+      "claude_skills_new_ipc_channel_skill_core_principles",
+      "claude_skills_new_ipc_channel_skill_output_format",
+      "claude_skills_new_ipc_channel_skill_research_references",
+      "claude_skills_new_ipc_channel_skill_rules",
+      "claude_skills_new_ipc_channel_skill_when_to_activate"
+    ],
+    "44": [
+      "claude_skills_new_policy_key_skill",
+      "claude_skills_new_policy_key_skill_app_new_policy_key",
+      "claude_skills_new_policy_key_skill_core_principles",
+      "claude_skills_new_policy_key_skill_output_format",
+      "claude_skills_new_policy_key_skill_research_references",
+      "claude_skills_new_policy_key_skill_rules",
+      "claude_skills_new_policy_key_skill_when_to_activate"
+    ],
+    "45": [
+      "claude_skills_perf_regression_skill",
+      "claude_skills_perf_regression_skill_app_perf_regression_skill",
+      "claude_skills_perf_regression_skill_core_principles",
+      "claude_skills_perf_regression_skill_output_format",
+      "claude_skills_perf_regression_skill_research_references",
+      "claude_skills_perf_regression_skill_rules",
+      "claude_skills_perf_regression_skill_when_to_activate"
+    ],
+    "46": [
+      "claude_skills_plan_skill",
+      "claude_skills_plan_skill_app_plan",
+      "claude_skills_plan_skill_core_principles",
+      "claude_skills_plan_skill_output_format",
+      "claude_skills_plan_skill_research_references",
+      "claude_skills_plan_skill_rules",
+      "claude_skills_plan_skill_when_to_activate"
+    ],
+    "47": [
+      "claude_skills_research_skill",
+      "claude_skills_research_skill_app_research_skill",
+      "claude_skills_research_skill_core_principles",
+      "claude_skills_research_skill_output_format",
+      "claude_skills_research_skill_research_references",
+      "claude_skills_research_skill_rules",
+      "claude_skills_research_skill_when_to_activate"
+    ],
+    "48": [
+      "claude_skills_review_skill",
+      "claude_skills_review_skill_app_review",
+      "claude_skills_review_skill_core_principles",
+      "claude_skills_review_skill_output_format",
+      "claude_skills_review_skill_research_references",
+      "claude_skills_review_skill_rules",
+      "claude_skills_review_skill_when_to_activate"
+    ],
+    "49": [
+      "claude_skills_ship_skill",
+      "claude_skills_ship_skill_app_ship",
+      "claude_skills_ship_skill_core_principles",
+      "claude_skills_ship_skill_output_format",
+      "claude_skills_ship_skill_research_references",
+      "claude_skills_ship_skill_rules",
+      "claude_skills_ship_skill_when_to_activate"
+    ],
+    "50": [
+      "claude_skills_spec_skill",
+      "claude_skills_spec_skill_app_spec",
+      "claude_skills_spec_skill_core_principles",
+      "claude_skills_spec_skill_output_format",
+      "claude_skills_spec_skill_research_references",
+      "claude_skills_spec_skill_rules",
+      "claude_skills_spec_skill_when_to_activate"
+    ],
+    "51": [
+      "claude_skills_storage_migration_skill",
+      "claude_skills_storage_migration_skill_app_storage_migration",
+      "claude_skills_storage_migration_skill_core_principles",
+      "claude_skills_storage_migration_skill_output_format",
+      "claude_skills_storage_migration_skill_research_references",
+      "claude_skills_storage_migration_skill_rules",
+      "claude_skills_storage_migration_skill_when_to_activate"
+    ],
+    "52": [
+      "claude_skills_tdd_skill",
+      "claude_skills_tdd_skill_app_test_driven_development_skill",
+      "claude_skills_tdd_skill_core_principles",
+      "claude_skills_tdd_skill_output_format",
+      "claude_skills_tdd_skill_research_references",
+      "claude_skills_tdd_skill_rules",
+      "claude_skills_tdd_skill_when_to_activate"
+    ],
+    "53": [
+      "claude_skills_verified_status_skill",
+      "claude_skills_verified_status_skill_app_verified_status_skill",
+      "claude_skills_verified_status_skill_core_principles",
+      "claude_skills_verified_status_skill_output_format",
+      "claude_skills_verified_status_skill_research_references",
+      "claude_skills_verified_status_skill_rules",
+      "claude_skills_verified_status_skill_when_to_activate"
+    ],
+    "54": [
+      "claude_skills_visual_review_skill",
+      "claude_skills_visual_review_skill_app_visual_review_skill",
+      "claude_skills_visual_review_skill_core_principles",
+      "claude_skills_visual_review_skill_output_format",
+      "claude_skills_visual_review_skill_research_references",
+      "claude_skills_visual_review_skill_rules",
+      "claude_skills_visual_review_skill_when_to_activate"
+    ],
+    "55": [
+      "lints_check_src_ambient_d",
+      "lints_check_src_ambient_d_electron",
+      "lints_check_src_ambient_d_handle",
+      "lints_check_src_ambient_d_node_fs",
+      "lints_check_src_ambient_d_react",
+      "lints_check_src_ambient_d_send",
+      "lints_check_src_ambient_d_whenready"
+    ],
+    "56": [
+      "skills_electron_best_practices_references_typescript_strict",
+      "skills_electron_best_practices_references_typescript_strict_1_compiler_settings",
+      "skills_electron_best_practices_references_typescript_strict_2_branded_ids_and_route_values",
+      "skills_electron_best_practices_references_typescript_strict_3_boundary_types",
+      "skills_electron_best_practices_references_typescript_strict_4_lint_expectations_from_the_drop_in_config",
+      "skills_electron_best_practices_references_typescript_strict_5_zod_and_generation",
+      "skills_electron_best_practices_references_typescript_strict_typescript_strict_digest"
+    ],
+    "57": [
+      "claude_skills_graphify_references_query",
+      "claude_skills_graphify_references_query_for_graphify_explain",
+      "claude_skills_graphify_references_query_for_graphify_path",
+      "claude_skills_graphify_references_query_graphify_reference_query_path_explain",
+      "claude_skills_graphify_references_query_step_0_constrained_query_expansion_required_before_traversal",
+      "claude_skills_graphify_references_query_step_1_traversal"
+    ],
+    "58": [
+      "examples_minimal_readme",
+      "examples_review_insecure_ipc",
+      "examples_review_insecure_ipc_a_worked_review_the_session_window",
+      "examples_review_insecure_ipc_the_module_under_review",
+      "skills_electron_port_skill",
+      "skills_electron_review_skill"
+    ],
+    "59": [
+      "examples_review_insecure_ipc_must_fix",
+      "examples_review_insecure_ipc_notes",
+      "examples_review_insecure_ipc_should_fix",
+      "examples_review_insecure_ipc_the_report",
+      "examples_review_insecure_ipc_verdict",
+      "examples_review_insecure_ipc_waived_gates"
+    ],
+    "60": [
+      "scripts_package_openai_plugin",
+      "scripts_package_openai_plugin_build",
+      "scripts_package_openai_plugin_main",
+      "scripts_package_openai_plugin_package_files",
+      "scripts_package_openai_plugin_py_path",
+      "scripts_package_openai_plugin_rationale_30"
+    ],
+    "61": [
+      "skills_electron_port_skill_1_the_order_of_work",
+      "skills_electron_port_skill_3_web_tauri_and_qt_to_electron",
+      "skills_electron_port_skill_4_behavior_parity_checklist",
+      "skills_electron_port_skill_5_what_not_to_do",
+      "skills_electron_port_skill_6_cross_skill_contract",
+      "skills_electron_port_skill_electron_port"
+    ],
+    "62": [
+      "skills_electron_review_skill_1_report_shape",
+      "skills_electron_review_skill_3_waived_gates",
+      "skills_electron_review_skill_4_how_to_review",
+      "skills_electron_review_skill_5_worked_example",
+      "skills_electron_review_skill_6_cross_skill_contract",
+      "skills_electron_review_skill_electron_review"
+    ],
+    "63": [
+      "examples_minimal_readme_layout",
+      "examples_minimal_readme_run_the_gates",
+      "examples_minimal_readme_the_minimal_example",
+      "examples_minimal_readme_what_it_does_not_do",
+      "examples_minimal_readme_what_it_proves"
+    ],
+    "64": [
+      "claude",
+      "claude_beautifulelectron_agent_instructions",
+      "claude_graphify",
+      "claude_model_routing_claude_code_ollama"
+    ],
+    "65": [
+      "claude_skills_graphify_references_add_watch",
+      "claude_skills_graphify_references_add_watch_for_graphify_add",
+      "claude_skills_graphify_references_add_watch_for_watch",
+      "claude_skills_graphify_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
+    ],
+    "66": [
+      "claude_skills_graphify_references_hooks",
+      "claude_skills_graphify_references_hooks_for_git_commit_hook",
+      "claude_skills_graphify_references_hooks_for_native_claude_md_integration",
+      "claude_skills_graphify_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
+    ],
+    "67": [
+      "claude_skills_graphify_references_update",
+      "claude_skills_graphify_references_update_for_cluster_only",
+      "claude_skills_graphify_references_update_for_update_incremental_re_extraction",
+      "claude_skills_graphify_references_update_graphify_reference_incremental_update_and_cluster_only"
+    ],
+    "68": [
+      "lints_check_src_consistent_type_imports",
+      "lints_check_src_consistent_type_imports_first",
+      "lints_check_src_types",
+      "lints_check_src_types_lead"
+    ],
+    "69": [
+      "scripts_check_lints",
+      "scripts_check_lints_bounded",
+      "scripts_check_lints_fail",
+      "scripts_check_lints_sh__entry"
+    ],
+    "70": [
+      "scripts_hooks_guard_bash",
+      "scripts_hooks_guard_bash_has",
+      "scripts_hooks_guard_bash_has_i",
+      "scripts_hooks_guard_bash_sh__entry"
+    ],
+    "71": [
+      "claude_commands_add_slice",
+      "claude_commands_add_slice_add_slice",
+      "claude_commands_add_slice_delegate"
+    ],
+    "72": [
+      "claude_commands_claim_check",
+      "claude_commands_claim_check_claim_check",
+      "claude_commands_claim_check_delegate"
+    ],
+    "73": [
+      "claude_commands_clean_room_rebuild",
+      "claude_commands_clean_room_rebuild_clean_room_rebuild",
+      "claude_commands_clean_room_rebuild_delegate"
+    ],
+    "74": [
+      "claude_commands_corpus_retrieval",
+      "claude_commands_corpus_retrieval_corpus_retrieval",
+      "claude_commands_corpus_retrieval_delegate"
+    ],
+    "75": [
+      "claude_commands_diagnosing_bugs",
+      "claude_commands_diagnosing_bugs_delegate",
+      "claude_commands_diagnosing_bugs_diagnosing_bugs"
+    ],
+    "76": [
+      "claude_commands_domain_modeling",
+      "claude_commands_domain_modeling_delegate",
+      "claude_commands_domain_modeling_domain_modeling"
+    ],
+    "77": [
+      "claude_commands_electron_security_check",
+      "claude_commands_electron_security_check_delegate",
+      "claude_commands_electron_security_check_electron_security_check"
+    ],
+    "78": [
+      "claude_commands_electron_upgrade",
+      "claude_commands_electron_upgrade_delegate",
+      "claude_commands_electron_upgrade_electron_upgrade"
+    ],
+    "79": [
+      "claude_commands_grilling",
+      "claude_commands_grilling_delegate",
+      "claude_commands_grilling_grilling"
+    ],
+    "80": [
+      "claude_commands_learn",
+      "claude_commands_learn_delegate",
+      "claude_commands_learn_learn"
+    ],
+    "81": [
+      "claude_commands_new_ipc_channel",
+      "claude_commands_new_ipc_channel_delegate",
+      "claude_commands_new_ipc_channel_new_ipc_channel"
+    ],
+    "82": [
+      "claude_commands_new_policy_key",
+      "claude_commands_new_policy_key_delegate",
+      "claude_commands_new_policy_key_new_policy_key"
+    ],
+    "83": [
+      "claude_commands_perf_regression",
+      "claude_commands_perf_regression_delegate",
+      "claude_commands_perf_regression_perf_regression"
+    ],
+    "84": [
+      "claude_commands_plan",
+      "claude_commands_plan_delegate",
+      "claude_commands_plan_plan"
+    ],
+    "85": [
+      "claude_commands_research",
+      "claude_commands_research_delegate",
+      "claude_commands_research_research"
+    ],
+    "86": [
+      "claude_commands_review",
+      "claude_commands_review_delegate",
+      "claude_commands_review_review"
+    ],
+    "87": [
+      "claude_commands_ship",
+      "claude_commands_ship_delegate",
+      "claude_commands_ship_ship"
+    ],
+    "88": [
+      "claude_commands_spec",
+      "claude_commands_spec_delegate",
+      "claude_commands_spec_spec"
+    ],
+    "89": [
+      "claude_commands_storage_migration",
+      "claude_commands_storage_migration_delegate",
+      "claude_commands_storage_migration_storage_migration"
+    ],
+    "90": [
+      "claude_commands_tdd",
+      "claude_commands_tdd_delegate",
+      "claude_commands_tdd_tdd"
+    ],
+    "91": [
+      "claude_commands_verified_status",
+      "claude_commands_verified_status_delegate",
+      "claude_commands_verified_status_verified_status"
+    ],
+    "92": [
+      "claude_commands_visual_review",
+      "claude_commands_visual_review_delegate",
+      "claude_commands_visual_review_visual_review"
+    ],
+    "93": [
+      "claude_rules_playbooks",
+      "claude_rules_playbooks_cross_repo_relationship_1_n",
+      "claude_rules_playbooks_playbooks_for_beautifulelectron_load_on_demand"
+    ],
+    "94": [
+      "claude_skills_graphify_references_github_and_merge",
+      "claude_skills_graphify_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
+      "claude_skills_graphify_references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+    ],
+    "95": [
+      "claude_skills_graphify_references_transcribe",
+      "claude_skills_graphify_references_transcribe_graphify_reference_transcribe_video_and_audio",
+      "claude_skills_graphify_references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+    ],
+    "96": [
+      "lints_check_src_renderer_restricted_sdk",
+      "lints_check_src_sdk_index",
+      "lints_check_src_sdk_index_sdk"
+    ],
+    "97": [
+      "lints_check_src_switch_exhaustiveness",
+      "lints_check_src_switch_exhaustiveness_kind",
+      "lints_check_src_switch_exhaustiveness_label"
+    ],
+    "98": [
+      "scripts_check_build",
+      "scripts_check_build_electron_skip_binary_download",
+      "scripts_check_build_sh__entry"
+    ],
+    "99": [
+      "claude_claude",
+      "claude_claude_graphify"
+    ],
+    "100": [
+      "claude_readme",
+      "claude_readme_claude_this_repo_s_claude_code_kit"
+    ],
+    "101": [
+      "claude_skills_claim_check_credits",
+      "claude_skills_claim_check_credits_credits"
+    ],
+    "102": [
+      "claude_skills_clean_room_rebuild_credits",
+      "claude_skills_clean_room_rebuild_credits_credits"
+    ],
+    "103": [
+      "claude_skills_corpus_retrieval_credits",
+      "claude_skills_corpus_retrieval_credits_credits"
+    ],
+    "104": [
+      "claude_skills_diagnosing_bugs_credits",
+      "claude_skills_diagnosing_bugs_credits_credits"
+    ],
+    "105": [
+      "claude_skills_domain_modeling_credits",
+      "claude_skills_domain_modeling_credits_credits"
+    ],
+    "106": [
+      "claude_skills_graphify_references_extraction_spec",
+      "claude_skills_graphify_references_extraction_spec_graphify_reference_extraction_subagent_prompt"
+    ],
+    "107": [
+      "claude_skills_grilling_credits",
+      "claude_skills_grilling_credits_credits"
+    ],
+    "108": [
+      "claude_skills_research_credits",
+      "claude_skills_research_credits_credits"
+    ],
+    "109": [
+      "claude_skills_tdd_credits",
+      "claude_skills_tdd_credits_credits"
+    ],
+    "110": [
+      "claude_skills_verified_status_credits",
+      "claude_skills_verified_status_credits_credits"
+    ],
+    "111": [
+      "claude_skills_visual_review_credits",
+      "claude_skills_visual_review_credits_credits"
+    ],
+    "112": [
+      "lints_check_src_clean",
+      "lints_check_src_clean_add"
+    ],
+    "113": [
+      "lints_check_src_eval",
+      "lints_check_src_eval_result"
+    ],
+    "114": [
+      "lints_check_src_explicit_module_boundary_types",
+      "lints_check_src_explicit_module_boundary_types_addnumbers"
+    ],
+    "115": [
+      "lints_check_src_floating_promise",
+      "lints_check_src_floating_promise_save"
+    ],
+    "116": [
+      "lints_check_src_new_func",
+      "lints_check_src_new_func_fn"
+    ],
+    "117": [
+      "lints_check_src_no_unnecessary_type_assertion",
+      "lints_check_src_no_unnecessary_type_assertion_one"
+    ],
+    "118": [
+      "lints_check_src_renderer_restricted_node",
+      "lints_check_src_renderer_restricted_node_broken"
+    ],
+    "119": [
+      "examples_minimal_src_preload"
+    ],
+    "120": [
+      "lints_check_eslint_config"
+    ],
+    "121": [
+      "lints_check_src_alert"
+    ],
+    "122": [
+      "lints_check_src_application_restricted_platform"
+    ],
+    "123": [
+      "lints_check_src_application_restricted_platform_read"
+    ],
+    "124": [
+      "lints_check_src_ban_ts_comment"
+    ],
+    "125": [
+      "lints_check_src_consistent_type_imports_second"
+    ],
+    "126": [
+      "lints_check_src_debugger"
+    ],
+    "127": [
+      "lints_check_src_domain_restricted_electron"
+    ],
+    "128": [
+      "lints_check_src_domain_restricted_electron_ready"
+    ],
+    "129": [
+      "lints_check_src_domain_restricted_globals"
+    ],
+    "130": [
+      "lints_check_src_domain_restricted_globals_runtime"
+    ],
+    "131": [
+      "lints_check_src_eslint_comments"
+    ],
+    "132": [
+      "lints_check_src_misused_promises"
+    ],
+    "133": [
+      "lints_check_src_no_console"
+    ],
+    "134": [
+      "lints_check_src_preload_index"
+    ],
+    "135": [
+      "lints_check_src_renderer_restricted_node_runtime"
+    ],
+    "136": [
+      "lints_check_src_renderer_restricted_sdk_client"
+    ],
+    "137": [
+      "lints_check_src_sdk_restricted_electron"
+    ],
+    "138": [
+      "lints_check_src_sdk_restricted_electron_broken"
+    ],
+    "139": [
+      "lints_check_src_sdk_restricted_react"
+    ],
+    "140": [
+      "lints_check_src_sdk_restricted_react_broken"
+    ],
+    "141": [
+      "lints_eslint_config"
+    ],
+    "142": [
+      "tests_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10615079365079365,
+    "1": 0.1551418439716312,
+    "2": 0.043478260869565216,
+    "3": 0.1319073083778966,
+    "4": 0.06666666666666667,
+    "5": 0.08,
+    "6": 0.11333333333333333,
+    "7": 0.09,
+    "8": 0.11956521739130435,
+    "9": 0.11764705882352941,
+    "10": 0.13333333333333333,
+    "11": 0.13333333333333333,
+    "12": 0.14285714285714285,
+    "13": 0.14285714285714285,
+    "14": 0.16666666666666666,
+    "15": 0.18181818181818182,
+    "16": 0.18181818181818182,
+    "17": 0.2909090909090909,
+    "18": 0.2,
+    "19": 0.2222222222222222,
+    "20": 0.3611111111111111,
+    "21": 0.2857142857142857,
+    "22": 0.2857142857142857,
+    "23": 0.2857142857142857,
+    "24": 0.2857142857142857,
+    "25": 0.2857142857142857,
+    "26": 0.2857142857142857,
+    "27": 0.2857142857142857,
+    "28": 0.2857142857142857,
+    "29": 0.2857142857142857,
+    "30": 0.2857142857142857,
+    "31": 0.2857142857142857,
+    "32": 0.2857142857142857,
+    "33": 0.2857142857142857,
+    "34": 0.2857142857142857,
+    "35": 0.2857142857142857,
+    "36": 0.2857142857142857,
+    "37": 0.2857142857142857,
+    "38": 0.2857142857142857,
+    "39": 0.2857142857142857,
+    "40": 0.2857142857142857,
+    "41": 0.2857142857142857,
+    "42": 0.2857142857142857,
+    "43": 0.2857142857142857,
+    "44": 0.2857142857142857,
+    "45": 0.2857142857142857,
+    "46": 0.2857142857142857,
+    "47": 0.2857142857142857,
+    "48": 0.2857142857142857,
+    "49": 0.2857142857142857,
+    "50": 0.2857142857142857,
+    "51": 0.2857142857142857,
+    "52": 0.2857142857142857,
+    "53": 0.2857142857142857,
+    "54": 0.2857142857142857,
+    "55": 0.2857142857142857,
+    "56": 0.2857142857142857,
+    "57": 0.3333333333333333,
+    "58": 0.3333333333333333,
+    "59": 0.3333333333333333,
+    "60": 0.5333333333333333,
+    "61": 0.3333333333333333,
+    "62": 0.3333333333333333,
+    "63": 0.4,
+    "64": 0.5,
+    "65": 0.5,
+    "66": 0.5,
+    "67": 0.5,
+    "68": 0.6666666666666666,
+    "69": 0.8333333333333334,
+    "70": 0.8333333333333334,
+    "71": 0.6666666666666666,
+    "72": 0.6666666666666666,
+    "73": 0.6666666666666666,
+    "74": 0.6666666666666666,
+    "75": 0.6666666666666666,
+    "76": 0.6666666666666666,
+    "77": 0.6666666666666666,
+    "78": 0.6666666666666666,
+    "79": 0.6666666666666666,
+    "80": 0.6666666666666666,
+    "81": 0.6666666666666666,
+    "82": 0.6666666666666666,
+    "83": 0.6666666666666666,
+    "84": 0.6666666666666666,
+    "85": 0.6666666666666666,
+    "86": 0.6666666666666666,
+    "87": 0.6666666666666666,
+    "88": 0.6666666666666666,
+    "89": 0.6666666666666666,
+    "90": 0.6666666666666666,
+    "91": 0.6666666666666666,
+    "92": 0.6666666666666666,
+    "93": 0.6666666666666666,
+    "94": 0.6666666666666666,
+    "95": 0.6666666666666666,
+    "96": 1.0,
+    "97": 0.6666666666666666,
+    "98": 0.6666666666666666,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0
+  },
+  "gods": [
+    {
+      "id": "tests_test_check_skill_checkskilltests",
+      "label": "CheckSkillTests",
+      "degree": 37
+    },
+    {
+      "id": "tests_test_check_skill_build_valid_repo",
+      "label": "build_valid_repo()",
+      "degree": 32
+    },
+    {
+      "id": "scripts_check_skill_checker",
+      "label": "Checker",
+      "degree": 26
+    },
+    {
+      "id": "tests_test_check_skill_write",
+      "label": "write()",
+      "degree": 24
+    },
+    {
+      "id": "scripts_check_examples_check_repo",
+      "label": "check_repo()",
+      "degree": 17
+    },
+    {
+      "id": "skills_electron_best_practices_skill_electron_best_practices",
+      "label": "Electron best practices",
+      "degree": 17
+    },
+    {
+      "id": "scripts_check_skill_yamlparser",
+      "label": "YamlParser",
+      "degree": 16
+    },
+    {
+      "id": "plugin_com_openai_interface",
+      "label": "interface",
+      "degree": 14
+    },
+    {
+      "id": "readme_beautiful_electron",
+      "label": "Beautiful Electron",
+      "degree": 14
+    },
+    {
+      "id": "examples_minimal_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 13
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `render()` connect `check-examples.py` to `Path`?",
+      "why": "High betweenness centrality (0.005) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Beautiful Electron` connect `Beautiful Electron` to `Electron best practices`?",
+      "why": "High betweenness centrality (0.004) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `name`, `version`, `private` to the rest of the system?",
+      "why": "469 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Path` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10615079365079365 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Electron best practices` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `check-examples.py` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1319073083778966 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `interface` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
