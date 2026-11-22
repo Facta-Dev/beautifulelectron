@@ -1,5 +1,5 @@
 ---
-name: "<app> Ship"
+name: ship
 description: "Prepares the <app> Electron desktop release — the green gate evidence, the pinned version bump, the fuse and packaging verification, the changelog entry and the pull request body — without publishing, deploying or committing on its own."
 division: core
 ---

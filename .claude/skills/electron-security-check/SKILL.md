@@ -1,5 +1,5 @@
 ---
-name: "<app> Electron Security Check"
+name: electron-security-check
 description: "Runs the Electron hardening checklist over the <app> desktop app — the webPreferences defaults, the fuse table read from the packaged output, the app:// handler and CSP, the safeStorage backend, navigation lockdown and the Linux sandbox posture — and reports every gap that violates the contract."
 division: security
 ---

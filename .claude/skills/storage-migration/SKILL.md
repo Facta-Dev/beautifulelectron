@@ -1,5 +1,5 @@
 ---
-name: "<app> Storage Migration"
+name: storage-migration
 description: "Migrates a durable <app> desktop record in SQLite — the forward-only migration in code, the user_version bump, the fixture of the previous schema and the backup/reset path — so an existing installation keeps its data and stays repairable."
 division: client
 ---

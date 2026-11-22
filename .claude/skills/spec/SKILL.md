@@ -1,5 +1,5 @@
 ---
-name: "<app> Spec"
+name: spec
 description: "Files a scoped, redaction-scanned specification for the <app> Electron desktop app — the user-visible behaviour, the acceptance criteria, the non-goals and the open questions — before any plan or code exists."
 division: core
 ---

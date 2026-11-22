@@ -1,5 +1,5 @@
 ---
-name: "<app> New IPC Channel"
+name: new-ipc-channel
 description: "Add an IPC message type to the <app> Electron desktop app — the typed envelope and the allowlist table in src/contracts/ipc.ts, the window capability entry, the preload bridge function, the main-side policy check and the contract plus capability tests — as one gated change."
 division: client
 ---

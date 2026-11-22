@@ -1,5 +1,5 @@
 ---
-name: "<app> New Policy Key"
+name: new-policy-key
 description: "Registers a managed-policy key for the <app> Electron desktop app — the zod policy schema entry in src/contracts/policy.ts, the defaults and resolver wiring, the admin-guide and permissions-register documentation, and the tests that pin the precedence order."
 division: security
 ---

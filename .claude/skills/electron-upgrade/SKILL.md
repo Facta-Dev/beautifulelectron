@@ -1,5 +1,5 @@
 ---
-name: "<app> Electron Upgrade"
+name: electron-upgrade
 description: "Upgrades the <app> Electron desktop app to a new supported major — the release-notes review, the pinned version bump, the fuse re-verification, the native-module rebuild check and the full matrix gate — as a staged, reversible change."
 division: client
 ---

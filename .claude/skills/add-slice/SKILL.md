@@ -1,5 +1,5 @@
 ---
-name: "<app> Add Slice"
+name: add-slice
 description: "Scaffold a new feature slice (src/features/<scope>) in the <app> Electron desktop app — domain, application, adapters, viewmodels, views and the barrel — wired through main, the preload bridge and the core utility process, with the fake-backed test gate, as one change."
 division: core
 ---

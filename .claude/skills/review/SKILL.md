@@ -1,5 +1,5 @@
 ---
-name: "<app> Review"
+name: review
 description: "Runs the <app> Electron pre-landing checklist — trust zones, IPC surface, navigation and content loading, secrets and auth, storage and realtime, packaging and updates, performance, accessibility and test adequacy — producing a severity-ranked verdict against the full gate."
 division: core
 ---
